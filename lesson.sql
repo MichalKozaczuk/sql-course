@@ -11,4 +11,4 @@ FROM   PatientStay AS ps
 WHERE  ps.Hospital IN ('Kingston', 'PRUH') -- when using IN () this creates list related to that selection code
        AND (ps.Ward LIKE '%Surgery'
             OR ps.Ward LIKE '%o%')
-       AND ps.Ethnicity IS NULL
+       AND ps.Ethnicity IS NULL;
