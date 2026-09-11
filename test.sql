@@ -1,4 +1,2 @@
-Select 
-*
-From
-Dimhospital
+SELECT *
+FROM   Dimhospital;
